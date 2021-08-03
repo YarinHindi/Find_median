@@ -60,23 +60,5 @@ public class Get_Median {
 	
 		
 	}
-	public static void main(String[] args) {
-		int arr[] = {-4,-6,0,11,15,-22,54,100,33,29,79,23,25,1,99,-100,-321,-500,-600};
-		Get_Median a = new Get_Median(arr.length);
-		for(int i=0; i<arr.length;i++) {
-			a.add(arr[i]);
-			
-		}
-	
 
-		System.out.println(a.GetMedian());
-		Arrays.sort(arr);
-		System.out.println(arr.length);
-		System.out.println(Arrays.toString(arr));
-		
-		
-		
-	
-	}
-	
 }
